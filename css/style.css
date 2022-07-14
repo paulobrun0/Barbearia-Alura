@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .banner {
   width: 100%;
 }
@@ -31,7 +35,8 @@ em strong {
   background: #fff;
   padding: 20px;
 }
-ul {
+
+.beneficios ul {
   display: inline-block;
   vertical-align: top;
   width: 20%;
