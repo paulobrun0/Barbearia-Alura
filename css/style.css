@@ -1,48 +1,152 @@
-body {
-  margin: 0;
+header {
+  background: #bdbdbd;
+  padding: 20px 0;
 }
 
-.banner {
-  width: 100%;
-}
-.principal {
-  background: #ccc;
-  padding: 30px;
+.caixa {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
 }
 
-.titulo-principal {
-  padding-left: 20px;
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
 }
 
-.titulo-centralizado,
-p {
-  text-align: center;
+nav li {
+  display: inline;
+  margin-right: 15px;
 }
 
-#missao {
-  font-size: 20px;
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+  font-size: 22px;
 }
 
-em strong {
-  color: #ff0000;
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
 }
 
-.itens {
-  font-style: italic;
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 
-.beneficios {
-  background: #fff;
-  padding: 20px;
-}
-
-.beneficios ul {
+.produtos li {
   display: inline-block;
+  text-align: center;
+  width: 30%;
   vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: 10px;
 }
 
-.img-beneficios {
+.produtos li:hover {
+  border-color: #c78c19;
+}
+
+.produtos li:active {
+  border-color: #088c19;
+}
+
+.produtos li:hover h2 {
+  font-size: 34px;
+}
+
+.produtos h2,
+.produtos-preco {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produto-descricao {
+  font-size: 18px;
+}
+
+.produtos-preco {
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background: url("/assets/bg.jpg");
+  padding: 40px 0;
+}
+
+footer .copyright {
+  color: #fff;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0 40px;
+}
+
+form label,
+form p {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.input-padrao {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 25px;
   width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.btn-enviar {
+  width: 40%;
+  padding: 15px 0;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.btn-enviar:hover {
+  background: darkorange;
+  transform: scale(1.2);
+}
+
+table {
+  margin: 20px 0 40px;
+}
+
+thead {
+  background: #555;
+  color: white;
+  font-weight: bold;
+}
+
+td,
+th {
+  border: 1px solid #000;
+  padding: 8px 15px;
 }
